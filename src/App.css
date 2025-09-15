@@ -40,3 +40,20 @@
 .read-the-docs {
   color: #888;
 }
+.process-inputs {
+  display: flex;
+  flex-direction: column; /* stack inputs + buttons vertically */
+  gap: 8px;
+  max-width: 400px;
+}
+
+.process-inputs input {
+  padding: 6px;
+  font-size: 14px;
+}
+
+.buttons-row {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
