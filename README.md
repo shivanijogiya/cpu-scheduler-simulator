@@ -2,7 +2,7 @@
 
 Modern Round Robin (RR) scheduling approaches have evolved beyond static time quanta toward adaptive models that dynamically adjust to workload conditions. This project introduces an **Adaptive Round Robin (ARR)** algorithm implemented and tested through an interactive web-based simulator:
 
-**Simulator:** https://nerdysheeks.github.io/cpu-scheduler-simulator/
+**Simulator:** https://shivanijogiya.github.io/cpu-scheduler-simulator/
 
 The proposed method computes the **Time Quantum (TQ)** in each scheduling cycle as a weighted combination of queue statistics — **median, mean, and minimum burst times** of processes currently in the ready queue. This adaptive mechanism balances fairness, responsiveness, and throughput, making the scheduler effective for heterogeneous workloads.
 
