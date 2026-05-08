@@ -78,4 +78,4 @@ Experimental analysis shows that the ARR algorithm achieves:
 - Fewer **Context Switches**
 - Improved throughput and scheduling flexibility
 
-These improvements arise from dynamically tuning the quantum size based on real-time queue conditions.
+These improvements arise from dynamically tuning the quantum size based on real-time queue conditions, thus proving its efficiency.
